@@ -49,6 +49,7 @@ let work = document.getElementById("work");
 let about = document.getElementById("about");
 let hero = document.getElementById("hero");
 let ourwork = document.getElementById("our-work");
+let pricing = document.getElementById("pricing");
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -61,7 +62,7 @@ const observer = new IntersectionObserver(
     });
   },
   {
-    threshold: 0.1, // Lower threshold for better mobile experience
+    threshold: 0.3, // Lower threshold for better mobile experience
   }
 );
 
@@ -71,3 +72,16 @@ if (work) observer.observe(work);
 if (about) observer.observe(about);
 if (hero) observer.observe(hero);
 if (ourwork) observer.observe(ourwork);
+if (pricing) observer.observe(pricing);
+
+// Resetting form to new one
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("fo-form");
+
+  form.addEventListener("submit", () => {
+    setTimeout(() => {
+      form.reset();
+    }, 800);
+  });
+});

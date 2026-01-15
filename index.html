@@ -10,24 +10,32 @@
     <!-- ====link to google icons==== -->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <!-- ==== LINK TO GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
     />
   </head>
   <body>
     <!-- ==== CODE FOR HEADER SECTION==== -->
     <header id="header">
       <div id="hea-logo">
-        <h1>Aurara</h1>
+        <h1>CODEZO</h1>
       </div>
 
       <ul class="hea-nav-list">
         <li><a class="selectednavitem nav-links" href="#hero">Home</a></li>
         <li><a class="nav-links" href="#about">About</a></li>
         <li><a class="nav-links" href="#work">Work</a></li>
+        <li><a class="nav-links" href="#pricing">Pricing</a></li>
         <li><a class="nav-links" href="#footer">Contact</a></li>
       </ul>
 
-      <button id="hea-btn">Call Now</button>
+      <a href="#footer"><button id="hea-btn">Call Now</button></a>
       <span class="material-symbols-outlined"> menu </span>
     </header>
 
@@ -39,19 +47,21 @@
           <span id="he-animation-element">businesses</span>
         </h1>
         <p id="he-paragraph">
-          <!-- We empower business with smart ai built websites to help businesses to
-          grow digitally and make an impact. -->
-          We design intelligent websites and SEO systems that turn visitors into
-          customers, clicks into conversions, and ideas into income.
+          AI-powered websites with basic SEO setup for local businesses to help
+          them generate leads.
         </p>
         <div id="he-btn-container">
-          <button id="he-btn1">Our Work</button>
-          <button id="he-btn2">Call Now</button>
+          <a href="#work">
+            <button id="he-btn1">Our Work</button>
+          </a>
+          <a href="#what-we-offer">
+            <button id="he-btn2">Our Services</button>
+          </a>
         </div>
       </div>
     </section>
 
-    <!-- ==== CODE FOR WHAT WE OFFER SECTION==== -->
+    <!-- ==== CODE FOR WHAT WE OFFER SECTION ==== -->
     <section id="what-we-offer">
       <div id="what-we-offer-div1">
         <h2>What we offer</h2>
@@ -63,7 +73,7 @@
       <div id="what-we-offer-div2">
         <div class="what-we-offer-box">
           <p><span class="material-symbols-outlined"> assignment_ind </span></p>
-          <h3>🌐 AI-Powered Website Design</h3>
+          <h3>AI-Powered Website Design</h3>
           <p>
             High-quality, modern websites built faster using AI + human
             direction.
@@ -71,26 +81,26 @@
         </div>
         <div class="what-we-offer-box">
           <p><span class="material-symbols-outlined"> globe_book </span></p>
-          <h3>🔍 SEO-Ready Website Setup</h3>
+          <h3>SEO-Ready Website Setup</h3>
           <p>
             Websites structured the right way from day one for search engines.
           </p>
         </div>
         <div class="what-we-offer-box">
           <p><span class="material-symbols-outlined"> chart_data </span></p>
-          <h3>📐 Website Strategy & Planning</h3>
+          <h3>Website Strategy & Planning</h3>
           <p>
             Before building, we plan page structure, layout, and content flow.
           </p>
         </div>
       </div>
       <div id="what-we-offer-btn-container">
-        <button id="what-we-offer-btn1">Our Work</button>
-        <button id="what-we-offer-btn2">Call Now</button>
+        <a href="#work"><button id="what-we-offer-btn1">Our Work</button></a>
+        <a href="#footer"><button id="what-we-offer-btn2">Call Now</button></a>
       </div>
     </section>
 
-    <!-- ==== CODE FOR ABOUT SECTION==== -->
+    <!-- ==== CODE FOR ABOUT SECTION ==== -->
     <section id="about">
       <div id="ab-div1">
         <h6>About us</h6>
@@ -101,24 +111,23 @@
           engines.
         </p>
         <div id="ab-btn-container">
-          <button id="ab-btn1">Our Work</button>
-          <button id="ab-btn2">Call Now</button>
+          <a href="#work"> <button id="ab-btn1">Our Work</button></a>
+          <a href="#footer"><button id="ab-btn2">Call Now</button></a>
         </div>
       </div>
       <div id="ab-div2">
-        <img src="images/gympic.png" alt="Img" />
+        <img src="./images/ai.png" alt="Img" />
       </div>
     </section>
 
-    <!-- ==== CODE FOR WORK SECTION==== -->
+    <!-- ==== CODE FOR WORK SECTION ==== -->
     <section id="work">
       <h2>Our Work</h2>
       <div id="wo-samples">
         <div>
           <h4>Cafe Website</h4>
-
           <a
-            href="https://cafewebhit.netlify.app"
+            href="https://cafewebhit.pages.dev"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -127,9 +136,8 @@
         </div>
         <div>
           <h4>Gym Website</h4>
-
           <a
-            href="https://gymwebhit.netlify.app"
+            href="https://gymwebhit.pages.dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -138,9 +146,8 @@
         </div>
         <div>
           <h4>Hospital Website</h4>
-
           <a
-            href="https://hospitalwebhit.netlify.app/"
+            href="https://hospitalwebhit.pages.dev"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -153,10 +160,116 @@
       </button>
     </section>
 
+    <!-- ==== CODE FOR PRICING SECTION ==== -->
+    <section id="pricing">
+      <h2>Plans & Pricing</h2>
+      <div id="pri-container">
+        <div class="pri-co-card">
+          <div>
+            <h3>Launch</h3>
+
+            <p>For businesses getting online for the first time</p>
+            <h2>₹9,999 · One-Time</h2>
+            <ul>
+              <p>
+                <span class="material-symbols-outlined"> check </span>1-page
+                funnel-based landing page
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Custom,
+                business-specific content
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span
+                >Mobile-optimized & fast-loading design
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Basic SEO
+                setup (meta tags & indexing)
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Lead
+                capture (form or WhatsApp)
+              </p>
+            </ul>
+          </div>
+          <a href="#footer"><button>Get now</button></a>
+        </div>
+        <div class="pri-co-card">
+          <div>
+            <h3>Grow</h3>
+            <p>For businesses that want regular customer inquiries</p>
+            <h2>₹14,999 · One-Time</h2>
+            <ul>
+              <p>
+                <span class="material-symbols-outlined">check </span>4–5 page
+                website with funnel-driven structure
+              </p>
+              <p>
+                <span class="material-symbols-outlined">check </span>
+                Conversion-focused, custom content
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check</span
+                >Mobile-first performance optimization
+              </p>
+              <p>
+                <span class="material-symbols-outlined">check </span>
+                SEO-ready site structure
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check</span>
+                Google Search Console & Analytics setup
+              </p>
+              <p>
+                <span class="material-symbols-outlined">check</span>Lead capture
+                & routing system
+              </p>
+            </ul>
+          </div>
+          <a href="#footer"><button>Get now</button></a>
+        </div>
+        <div class="pri-co-card">
+          <div>
+            <h3>Scale</h3>
+            <p>For businesses ready to expand and run marketing</p>
+            <h2>₹34,999 · One-Time</h2>
+            <ul>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Custom
+                funnel-based website or landing system
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Advanced
+                conversion-focused copy
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Strong SEO
+                foundation for long-term growth
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Blog
+                system (AI-ready)
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span
+                >Upgrade-friendly architecture for future AI & workflows
+              </p>
+              <p>
+                <span class="material-symbols-outlined"> check </span>Priority
+                support
+              </p>
+            </ul>
+          </div>
+          <a href="#footer"><button>Get now</button></a>
+        </div>
+      </div>
+    </section>
+
     <!-- ==== CODE FOR FOOTER SECTION==== -->
-    <footer id="footer">
-      <div id="fo-div1">
-        <div>
+    <section id="footer">
+      <div id="fo-container1">
+        <div class="fo-container1-div1">
           <h2>Grow your business</h2>
           <p>
             Start your success journey with expert guidance and strategic
@@ -164,37 +277,59 @@
             heights.
           </p>
         </div>
-        <div>
-          <h4>Contact Platform</h4>
-          <p>
-            Our contact platform makes it easy to contact with us for enquires,
-            support and collaborations. Reach out anytime, and let's build
-            success together.
-          </p>
-          <div>
-            <p>
-              <span class="material-symbols-outlined"> call </span>(201)
-              555-0124
-            </p>
-            <p>
-              <span class="material-symbols-outlined"> mail </span
-              >aurara1111@gmail.com
-            </p>
-            <p>
-              <span class="material-symbols-outlined"> location_on </span>4140
-              Parket Rd. Allentown, New Mexico 33441
-            </p>
-          </div>
+        <div class="fo-container1-div2">
+          <h4>CONTACT US</h4>
+          <form
+            id="fo-form"
+            action="https://api.web3forms.com/submit"
+            method="post"
+            name="AgencyForm"
+          >
+            <input
+              type="hidden"
+              name="access_key"
+              value="b1fc9d27-85ed-4954-a1b6-289e04fcda7c"
+            />
+
+            <input
+              type="checkbox"
+              name="botcheck"
+              class="hidden"
+              style="display: none"
+            />
+            <div>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="First Name"
+                required
+              />
+              <input type="text" name="first-name" placeholder="Last Name" />
+            </div>
+            <input
+              type="email"
+              placeholder="Your Email"
+              name="email"
+              required
+            />
+
+            <input type="tel" placeholder="Your Phone" name="tel" required />
+            <textarea
+              name="message"
+              id="fo-form-textarea"
+              placeholder="How can we help?"
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </div>
-      <div id="fo-div3">
-        <p>&copy;Aurara 2025 designed by Ronit Jain</p>
-        <p>Terms of service</p>
+      <div id="fo-container2">
+        <p>&copy;CODEZO 2026</p>
       </div>
-    </footer>
+    </section>
 
     <!-- ====link to js file==== -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script src="./script.js" defer></script>
+    <script src="/script.js" defer></script>
   </body>
 </html>
