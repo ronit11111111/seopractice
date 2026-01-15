@@ -651,17 +651,18 @@ html {
   justify-content: center;
   gap: 3rem;
   margin-top: 2rem;
-  overflow: hidden; /* Prevent any accidental horizontal scroll */
+  /* overflow: hidden; */
+   /* Prevent any accidental horizontal scroll */
 }
 
 #fo-container1 {
   display: flex;
   justify-content: space-between;
   width: 90%; /* Increased from 80% for better mobile fit */
-  max-width: 1200px;
+  max-width: 1300px;
   background-color: white;
   color: black;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: clamp(1rem, 5%, 3rem); /* Responsive padding */
   align-items: stretch; /* Stretch to fill height */
   gap: 2rem;
@@ -699,7 +700,7 @@ html {
   gap: 2rem;
   background-color: #105cf040;
   padding: 1.5rem; /* Reduced padding for better interior space */
-  border-radius: 20px;
+  border-radius: 10px;
   box-sizing: border-box;
 }
 .fo-container1-div2 h4 {
